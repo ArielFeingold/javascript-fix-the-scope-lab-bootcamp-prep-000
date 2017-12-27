@@ -23,13 +23,10 @@ var funkyFunction = function() {
   }
 }
 
-var theFunk = funkyFunction()
-theFunk = theFunk()
-
-// function theFunk(){
-//   var funk = funkyFunction()
-//   return funk();
-// }
+function theFunk(){
+  var funk = funkyFunction()
+  return funk();
+}
 
 
 
